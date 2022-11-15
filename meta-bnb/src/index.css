@@ -1,0 +1,177 @@
+/* header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    position: absolute;
+    width: 1240px;
+    height: 48px;
+    left: 100px;
+    top: 43px;
+}
+
+
+#logo {
+width: 233px;
+height: 37px;
+cursor: pointer;
+position: absolute;
+left: 0%;
+right: 81.21%;
+top: 7.64%;
+bottom: 15.97%;
+box-shadow: inset 4px 4px 44px rgba(96, 96, 96, 0.15)
+}
+
+nav ul{
+list-style: none;
+display: flex;
+flex-direction: row;
+align-items: spa;
+padding: 0px;
+gap: 48px;
+position: absolute;
+left: 31.94%;
+right: 17.58%;
+top: 31.25%;
+bottom: 20.83%;
+}
+
+.wallet {
+color: white;
+position: absolute;
+right: 0%;
+top: 0%;
+bottom: 0%;
+background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+padding: 10px;
+height: 48px;
+width: 170px;
+left: 1070px;
+top: 0px;
+border-radius: 10px;
+cursor: pointer;
+border: none;
+} */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(0, 0, 0);
+    box-sizing: border-box;
+    font-family: 'Red Rose', cursive;
+  }
+  
+
+/* ------------------------------------------------------------------------------------------ */
+  /* HEADER AND NAVBAR */
+
+   a {
+    text-decoration: none;
+  }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+
+#logo {
+width: 233px;
+height: 37px;
+cursor: pointer;
+box-shadow: inset 4px 4px 44px rgba(96, 96, 96, 0.15)
+}
+
+nav li{
+display: inline-block;
+padding: 0 20px;
+}
+
+.wallet {
+color: white;
+background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+padding: 10px;
+height: 48px;
+width: 170px;
+border-radius: 10px;
+cursor: pointer;
+border: none;
+}
+
+/* -------------------------------------------------------------------------------------- */
+
+            /* FOOTER STYLES */
+            
+/* -------------------------------------------------------------------------------------- */
+
+footer {
+    background-color: #1D1D1E;
+    height: 322px;
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logos {
+    float: left;
+    margin: 60px 20px 30px 110px;
+}
+
+.social {
+    margin: 70px 0 60px 0;
+    display: flex;
+}
+
+.social img {
+    margin-right: 25px;
+    height: 18px;
+    width: 18px;
+}
+
+#ig {
+    margin: 0;
+    height: 25px;
+    width: 25px;
+    margin-right: 25px;
+}
+
+.sub-links {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    margin-right: 15rem;
+    width: 1000px;
+    justify-content: space-evenly;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h4 {
+    color: white;
+}
+
+
+.footer-col{
+ margin-left: 215px;   
+}
+.footer-col li{
+    color: white;
+    padding: 5px;
+    margin-top: 10px;
+}
